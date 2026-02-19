@@ -61,6 +61,7 @@
     "react-resizable-panels": "^2.1.7",
     "react-toastify": "^11.0.5",
     "redux-persist": "^6.0.0",
+    "reselect": "^5.1.1",
     "tailwind-merge": "^2.5.5",
     "tailwindcss-animate": "^1.0.7",
     "vaul": "^1.1.2",

@@ -8,7 +8,7 @@ import mainReducer from "./modules/main/reducer";
 
 const combinedReducer = combineReducers({
   user_data: userDataReducers,
-  usePosterReducers: usePosterReducers,
+  usePosterReducers: posterReducer,
   uiReducer: uiReducer,
   mainReducer : mainReducer
 });
