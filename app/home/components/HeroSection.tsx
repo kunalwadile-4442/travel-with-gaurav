@@ -28,14 +28,14 @@ export default function HeroSection() {
         <div className="max-w-4xl mx-auto w-full">
           {/* Logo */}
           <div className="text-center mb-8 sm:mb-10">
-            <Image
+            {/* <Image
               src={App_url.image.logo}
               alt="Dhanashree Tours and Travel"
               width={280}
               height={190}
               className="w-[200px] sm:w-[240px] lg:w-[280px] h-auto mx-auto drop-shadow-2xl"
               priority
-            />
+            /> */}
           </div>
 
           {/* Main Heading */}

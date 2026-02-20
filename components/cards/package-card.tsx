@@ -31,7 +31,7 @@ const PackageCard = ({ index, plan }: IPackageProps) => {
             </div>
             <div className="flex items-end gap-2 mb-5">
                 <h3 className="font-manrope capitalize font-bold text-2xl text-[#000000]">
-                    {plan?.price?.toLocaleLowerCase() === 'vip' ? plan?.price : `€ ${plan?.price}`}
+                    {plan?.price?.toLocaleLowerCase() === 'vip' ? plan?.price : `${plan?.price}`}
                 </h3>
                 <p className='font-manrope capitalize font-semibold text-sm  text-[#64748B]'>{plan?.price_description}</p>
             </div>
