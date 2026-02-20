@@ -119,7 +119,7 @@ export const metadata: Metadata = {
     siteName: "Dhanashree Tours and Travel",
     images: [
       {
-        url: "/ogimage.jpg",
+        url: "/ogimage.png",
         width: 1200,
         height: 630,
         alt: "Dhanashree Tours and Travel - Car Rental & Tour Services in Pune",
@@ -130,7 +130,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Dhanashree Tours and Travel | Car Rental in Pune",
     description: "Car rentals, outstation trips, airport transfers. Book your ride in Pune.",
-    images: ["/ogimage.jpg"],
+    images: ["/ogimage.png"],
   },
   robots: {
     index: true,
