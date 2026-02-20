@@ -53,10 +53,11 @@ export default function Footer() {
 
             {/* SOCIAL ICONS */}
             <div className="flex gap-3">
-              {[<Facebook />, <Twitter />, <Instagram />].map((icon, i) => (
+              {[, <Instagram />].map((icon, i) => (
                 <span
                   key={i}
                   className="h-9 w-9 p-2 flex items-center justify-center rounded-full bg-white text-[#64748B] hover:bg-white/90 transition cursor-pointer text-sm"
+                  onClick={() => window.open('https://www.instagram.com/gaurav_jadhav_94/', '_blank')}
                 >
                   {icon}
                 </span>
@@ -167,24 +168,34 @@ export default function Footer() {
               </svg>
             </div>
 
-            <ul className="space-y-4 text-sm">
-              <li className="flex text-white/50 items-start gap-3 font-manrope font-medium">
-                <MapPin size={25} className="text-white/50 mt-0.5" />
-                <span>
-                  Pune, Maharashtra, India
-                </span>
-              </li>
+           <ul className="space-y-4 text-sm">
+  <li className="flex items-start gap-3 font-manrope font-medium text-white/70 hover:text-white transition-colors">
+    <MapPin size={22} className="mt-1 text-white/70 group-hover:text-white transition-colors" />
+    <span>
+      Pimpri Chinchwad, Pune, Maharashtra
+    </span>
+  </li>
 
-              <li className="flex text-white/50 items-center gap-3 text-md font-manrope font-medium">
-                <Mail size={25} className="text-white/50 mt-0.5" />
-                info@dhanashreetours.com
-              </li>
+  <li className="flex items-center gap-3 font-manrope font-medium text-white/70 hover:text-white transition-colors">
+    <Mail size={22} className="text-white/70 transition-colors" />
+    <a 
+      href="mailto:dhanashreetravels9464@gmail.com"
+      className="hover:text-white transition-colors"
+    >
+      dhanashreetravels9464@gmail.com
+    </a>
+  </li>
 
-              <li className="flex text-white/50 items-center gap-3 font-manrope font-medium">
-                <Phone size={25} className="text-white/50] mt-0.5" />
-                +91 9XXXXXXXXX
-              </li>
-            </ul>
+  <li className="flex items-center gap-3 font-manrope font-medium text-white/70 hover:text-white transition-colors">
+    <Phone size={22} className="text-white/70 transition-colors" />
+    <a 
+      href="tel:+918626009464"
+      className="hover:text-white transition-colors"
+    >
+      +91 8626009464
+    </a>
+  </li>
+</ul>
           </div>
         </div>
 

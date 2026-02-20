@@ -6,17 +6,17 @@ const blogs = [
   {
     title: "Pune to Mumbai Travel Guide",
     desc: "Best time to travel, toll details, and one-day return trip tips.",
-    image: App_url.image.blog_image_1,
+    image: App_url.image.mumbai_guide,
   },
   {
     title: "Outstation Trip Planning",
     desc: "Everything you need to know before booking a long-distance ride.",
-    image: App_url.image.blog_image_2
+    image: App_url.image.alibag
   },
   {
     title: "Airport Pickup & Drop Tips",
     desc: "How to ensure smooth, on-time airport transfers every time.",
-    image: App_url.image.blog_image_3
+    image: App_url.image.airpot
   },
 ]
 

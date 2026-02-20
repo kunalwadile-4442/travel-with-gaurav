@@ -10,21 +10,21 @@ const TravelGallery = () => {
         {
             id: '1',
             title: 'Lonavala Trip',
-            image: App_url.image.image_1,
+            image: App_url.image.lonavala,
             description: 'Perfect Weekend Hill Station Getaway',
             type: 'outstation'
         },
         {
             id: '2',
             title: 'Pune to Mumbai',
-            image: App_url.image.image_2,
+            image: App_url.image.your_search,
             description: 'One Day Return & Drop Available',
             type: 'outstation'
         },
         {
             id: '3',
             title: 'Airport Pickup & Drop',
-            image: App_url.image.image_3,
+            image: App_url.image.airpot,
             description: 'On-time and Hassle-free Transfers',
             type: 'airport'
         },

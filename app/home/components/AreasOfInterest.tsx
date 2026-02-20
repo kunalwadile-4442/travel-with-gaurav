@@ -9,21 +9,21 @@ import AreaCard from '../../../components/cards/AreaCard'
 const areasData = [
   {
     id: '1',
-    title: 'Lonavala',
-    image: App_url.image.marbella,
-    description: 'Perfect Weekend Hill Station Getaway',
+    title: 'Lonavala Road Trip',
+    image: App_url.image.lonavala,
+    description: 'Comfortable Car Rentals for Scenic Hill Drives',
   },
   {
     id: '2',
-    title: 'Mahabaleshwar',
-    image: App_url.image.malaga,
-    description: 'Scenic Mountains & Strawberry Farms',
+    title: 'Mahabaleshwar Tour',
+    image: App_url.image.mahabaleshwar,
+    description: '7 Seater & Sedan Options for Family Trips',
   },
   {
     id: '3',
-    title: 'Goa',
-    image: App_url.image.costa_del_sol,
-    description: 'Beach Trips & Fun Outstation Tours',
+    title: 'Goa Long Drive',
+    image: App_url.image.goa,
+    description: 'Outstation Car Rental with Professional Drivers',
   }
 ]
 

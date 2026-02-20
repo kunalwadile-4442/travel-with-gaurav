@@ -11,11 +11,9 @@ export const App_url = {
     edit: "/assets/images/edit.svg",
     contact_us: "/assets/images/contact-us.jpg",
     about_us_1: '/assets/images/about-us-1.jpg',
-    about_us_2: '/assets/images/about-us-2.jpg',
     local: '/assets/images/local.svg',
     ai_search: '/assets/images/ai-search.svg',
     modular: '/assets/images/modular.svg',
-    ai_expert: '/assets/images/dev-1/ai-expert.png',
     building_icon: '/assets/images/building.svg',
     away_icon: '/assets/images/away.svg',
     cap: '/assets/images/cap.svg',
@@ -38,7 +36,16 @@ export const App_url = {
     marbella: "/assets/images/dev/marbella.png",
     malaga: "/assets/images/dev/malaga.png",
     costa_del_sol: "/assets/images/dev/costa-del-sol.png",
-
+    
+    about_us_2: '/assets/images/about-us-2.jpg',
+    your_search: "/mumbai-pune.jpg", 
+    mumbai_guide: "/mumbai_guide.jpg", 
+    airpot: "/airpot.jpg", 
+    alibag: "/alibag.jpg", 
+    goa: "/goa.webp",
+    ai_expert: "/gaurav.png",
+    lonavala: "/lonavala.webp",
+    mahabaleshwar: "/mahabaleshwar.jpeg",
     image_1: "/assets/images/car/sd1.jpeg",
     image_2: "/assets/images/car/sd2.jpeg",
     image_3: "/assets/images/car/e.jpeg",
@@ -54,7 +61,6 @@ export const App_url = {
     blog_image_2: "/assets/images/dev/blog-image-2.png",
     blog_image_3: "/assets/images/dev/blog-image-3.png",
 
-    your_search: "/assets/images/dev-1/manage-search.jpg",
   },
   link: {
     INITIAL_URL: "/",

@@ -59,10 +59,10 @@ const ContactUs = () => {
                 <div className="lg:mx-10 px-6">
                     <div className="flex flex-col md:flex-row md:justify-between mb-14">
                         <h2 className="text-3xl capitalize font-manrope font-bold text-[#000000]">
-                            Connect with Us
+                            Book Your Ride with Dhanashree Tours & Travel
                         </h2>
                         <p className="text-slate_gray font-medium font-manrope text-md max-w-xl mt-4 md:mt-0">
-                            Get in touch with Dhanashree Tours and Travel for personalized guidance and find the right travel experience with confidence.
+                            Contact us for local rentals, airport transfers, and outstation trips across Pune and Maharashtra. We ensure safe, comfortable, and affordable travel.
                         </p>
                     </div>
                     <div className="grid grid-cols-1  sm:grid-cols-2 lg:grid-cols-[1.2fr_0.8fr] gap-6">
@@ -81,8 +81,7 @@ const ContactUs = () => {
                                                         </FormLabel>
                                                         <FormControl>
                                                             <Input
-
-                                                                placeholder="Enter first name"
+                                                                placeholder="Enter your first name"
                                                                 className="rounded-[10px] h-12 bg-white border-[#D1D5DB] text-black"
                                                                 {...field}
                                                             />
@@ -101,8 +100,7 @@ const ContactUs = () => {
                                                         </FormLabel>
                                                         <FormControl>
                                                             <Input
-
-                                                                placeholder="Enter last name"
+                                                                placeholder="Enter your last name"
                                                                 className="rounded-[10px] h-12 bg-white border-[#D1D5DB] text-black"
                                                                 {...field}
                                                             />
@@ -123,7 +121,7 @@ const ContactUs = () => {
                                                     </FormLabel>
                                                     <FormControl>
                                                         <Input
-                                                            placeholder="Enter your phone"
+                                                            placeholder="Enter your mobile number"
                                                             className="rounded-[10px] h-12 bg-white border-[#D1D5DB] text-black"
                                                             {...field}
                                                         />
@@ -143,8 +141,7 @@ const ContactUs = () => {
                                                     </FormLabel>
                                                     <FormControl>
                                                         <Input
-
-                                                            placeholder="Enter email"
+                                                            placeholder="Enter your email address"
                                                             className="rounded-[10px] h-12 bg-white border-[#D1D5DB] text-black"
                                                             {...field}
                                                         />
@@ -164,7 +161,7 @@ const ContactUs = () => {
                                                     </FormLabel>
                                                     <FormControl>
                                                         <Input
-                                                            placeholder="What would you like to consult about"
+                                                            placeholder="Trip type (Local / Airport / Outstation)"
                                                             className="rounded-[10px] h-12 bg-white border-[#D1D5DB] text-black"
                                                             {...field}
                                                         />
@@ -180,12 +177,12 @@ const ContactUs = () => {
                                             render={({ field }) => (
                                                 <FormItem>
                                                     <FormLabel className="font-medium font-inter text-[#101828]">
-                                                        Project Information
+                                                        Travel Details
                                                     </FormLabel>
                                                     <FormControl>
                                                         <Textarea
                                                             rows={10}
-                                                            placeholder="What would you like to consult about"
+                                                            placeholder="Share your travel details (date, pickup location, destination, number of passengers)"
                                                             className="rounded-[10px] h-28 bg-white border-[#D1D5DB] text-black"
                                                             {...field}
                                                         />
@@ -222,9 +219,9 @@ const ContactUs = () => {
                                         <MapPin size={25} className="text-[#0B5394] mt-0.5" />
                                     </div>
                                     <div className="">
-                                        <h1 className='font-manrope font-bold text-[#000000] text-lg'>Location</h1>
+                                        <h1 className='font-manrope font-bold text-[#000000] text-lg'>Our Location</h1>
                                         <span className='font-manrope text-[#475569] font-normal'>
-                                            Dhanashree Tours and Travel, Pune, India
+                                           Pimpri Chinchwad, Pune
                                         </span>
                                     </div>
                                 </div>
@@ -236,7 +233,7 @@ const ContactUs = () => {
                                     <div className="">
                                         <h1 className='font-manrope font-bold text-[#000000] text-lg'>Email</h1>
                                         <span className='font-manrope text-[#475569] font-normal'>
-                                            info@dhanashreetours.com
+                                            dhanashreetravels9464@gmail.com
                                         </span>
                                     </div>
                                 </div>
@@ -246,9 +243,9 @@ const ContactUs = () => {
                                         <Phone size={25} className="text-[#0B5394] mt-0.5" />
                                     </div>
                                     <div className="">
-                                        <h1 className='font-manrope font-bold text-[#000000] text-lg'>Phone</h1>
+                                        <h1 className='font-manrope font-bold text-[#000000] text-lg'>Call Us</h1>
                                         <span className='font-manrope text-[#475569] font-normal'>
-                                            <span className="font-semibold"> Mobile :</span> +91 98765 43210
+                                            <span className="font-semibold"> Mobile :</span> +91 8626009464
                                         </span>
                                     </div>
                                 </div>
